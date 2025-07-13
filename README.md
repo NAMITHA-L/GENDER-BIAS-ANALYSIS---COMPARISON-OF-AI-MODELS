@@ -35,7 +35,7 @@ new_try/
 │ └── ... etc.
 │
 ├── llm_bias_classifier.py # 🔍 Bias detection using LLM
-├── rewrite_plot_without_bias.py# ✍️ Rewriter to remove gender bias
+├── rewrite_plot_without_bias.py # ✍️ Rewriter to remove gender bias
 ├── visualization.py # 📊 Matplotlib-based bar chart of bias
 ├── streamlit_app.py # 🎯 Main Streamlit web app
 ├── plot_rewriter.py # (Optional alternate rewrite logic)
