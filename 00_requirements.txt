@@ -1,0 +1,9 @@
+transformers
+accelerate
+torch
+streamlit
+matplotlib
+seaborn
+wordcloud
+markdown
+weasyprint
