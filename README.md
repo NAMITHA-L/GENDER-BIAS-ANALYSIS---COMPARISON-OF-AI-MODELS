@@ -24,21 +24,38 @@ We use **[`deepseek-ai/flan-t5-base`](https://huggingface.co/deepseek-ai/flan-t5
 
 ## 📁 Project Structure
 
+
 new_try/
+
 │
+
 ├── local_models/
+
+
 │ └── flan-t5-base/ # ⬅️ Place downloaded model files here
+
 │ ├── config.json
+
 │ ├── tokenizer.json
+
 │ └── ... etc.
+
 │
+
 ├── llm_bias_classifier.py # 🔍 Bias detection using LLM
+
 ├── rewrite_plot_without_bias.py # ✍️ Rewriter to remove gender bias
+
 ├── visualization.py # 📊 Matplotlib-based bar chart of bias
+
 ├── streamlit_app.py # 🎯 Main Streamlit web app
+
 ├── plot_rewriter.py # (Optional alternate rewrite logic)
+
 ├── generate_report.py # (Optional PDF export using WeasyPrint)
+
 └── 00_requirements.txt # 📦 Dependencies list
+
 
 
 ## 🖼️ How It Works (Visual Workflow)
