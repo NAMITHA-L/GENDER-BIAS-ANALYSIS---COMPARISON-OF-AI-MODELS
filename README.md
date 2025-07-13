@@ -22,8 +22,6 @@ We use **[`deepseek-ai/flan-t5-base`](https://huggingface.co/deepseek-ai/flan-t5
 
 > Note: The actual model weights are not included in this repo due to size (1GB+). You'll need to manually download them into the folder described below.
 
-
-
 ## 📁 Project Structure
 
 new_try/
@@ -41,9 +39,6 @@ new_try/
 ├── plot_rewriter.py # (Optional alternate rewrite logic)
 ├── generate_report.py # (Optional PDF export using WeasyPrint)
 └── 00_requirements.txt # 📦 Dependencies list
-
-
-
 
 
 ## 🖼️ How It Works (Visual Workflow)
